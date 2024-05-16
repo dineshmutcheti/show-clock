@@ -26,7 +26,7 @@ class App extends Component {
         >
           {showClock ? 'Hide Clock' : 'Show Clock'}
         </button>
-        {showClock && <Clock />}
+        {showClock && <Clock />} // if the showclock is true then the clock component will be render and it will be displayed  if the show clock will false the clock component will be not be render the clock component will not display
       </div> //if showClock is true the component will display else it will not display
     )
   }
